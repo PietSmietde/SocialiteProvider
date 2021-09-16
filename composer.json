@@ -1,5 +1,5 @@
 {
-    "name": "pietsmiet/socialite-pietsmiet",
+    "name": "pietsmiet/socialite-provider",
     "description": "Pietsmiet OAuth2 Provider for Laravel Socialite",
     "keywords": [
         "pietsmiet",
