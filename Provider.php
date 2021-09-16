@@ -25,7 +25,7 @@ class Provider extends AbstractProvider
     protected function getAuthUrl($state)
     {
         return $this->buildAuthUrlFromBase(
-            'https://www.pietsmiet.de/oauth2/authorize',
+            'https://www.pietsmiet.de/oauth/authorize',
             $state
         );
     }
@@ -35,7 +35,7 @@ class Provider extends AbstractProvider
      */
     protected function getTokenUrl()
     {
-        return 'https://www.pietsmiet.de/oauth2/token';
+        return 'https://www.pietsmiet.de/oauth/token';
     }
 
     /**
